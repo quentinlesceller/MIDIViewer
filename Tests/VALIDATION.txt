@@ -1,0 +1,40 @@
+PASS: type 0, Unicode path and timing
+PASS: type 1 tracks and note count
+PASS: tempo changes: 4 beats at 120, 12 beats at 60 = 14 seconds
+PASS: melodic and percussion channels preserved
+PASS: instrument program preserved
+PASS: sustain controller preserved
+PASS: running status
+PASS: clear error for invalid.mid: error.invalid
+PASS: clear error for truncated.mid: error.truncated
+PASS: clear error for type2.mid: error.format
+PASS: clear error for smpte.mid: error.smpte
+PASS: clear error for sysex.mid: error.sysex
+PASS: clear error for empty.mid: error.empty
+PASS: clear error for vlq-invalid.mid: error.invalid
+PASS: every truncated prefix rejected without crashing
+PASS: mutated-file corpus processed without crashing
+PASS: Apple synth produces audio channel 0, program 0: RMS 0.03856181018892275
+PASS: Apple synth produces audio channel 1, program 48: RMS 0.03773243330061588
+PASS: Apple synth produces audio channel 9, program 0: RMS 0.08013884473826466
+PASS: sustain remains audible after key release: RMS 0.024044816784154724
+PASS: panic leaves no held voices: RMS 3.991532545514306e-06
+PASS: seek/restart reconstructs held and sustained notes: RMS 0.09392844269610079
+PASS: pause is silent
+PASS: resume
+PASS: double-speed transport
+PASS: stop returns to start
+PASS: successive load resets transport
+MUTED RMS: 0.0
+PASS: muted track has no sounding notes
+PASS: original MIDI SHA-256 unchanged
+PASS: real-time scheduled playback produces mixer audio: RMS 0.03610886687512478
+PASS: real-time pause releases all voices
+PASS: real-time end of song stops transport
+PASS: real-time seek then stop leaves no held voices
+SUCCESS: 33 checks
+PASS: en: 40 nonempty, matching localization keys and placeholders
+PASS: fr: 40 nonempty, matching localization keys and placeholders
+PASS: es: 40 nonempty, matching localization keys and placeholders
+PASS: de: 40 nonempty, matching localization keys and placeholders
+PASS: it: 40 nonempty, matching localization keys and placeholders

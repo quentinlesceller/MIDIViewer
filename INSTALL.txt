@@ -1,0 +1,44 @@
+MIDI Viewer 1.0 — macOS 13 or later / macOS 13 ou ultérieur
+Apple silicon + Intel
+
+FRANÇAIS
+1. Décompressez MIDIViewer-1.0-macOS.zip.
+2. Déplacez « MIDI Viewer.app » dans votre dossier Applications.
+3. Ouvrez l’application et choisissez Fichier > Ouvrir… (Commande–O).
+Vous pouvez aussi glisser un fichier .mid ou .midi dans la fenêtre, ou utiliser
+Finder > Ouvrir avec > MIDI Viewer.
+
+Espace : lecture/pause. Commande–point : arrêt et retour au début.
+Cliquez sur la barre temporelle pour vous déplacer. Le menu de pourcentage
+change la vitesse ; Commande–0 revient à 100 %.
+Œil : afficher/masquer. Haut-parleur : couper/réactiver. Casque : solo.
+
+Tout fonctionne hors ligne. Aucun compte ni téléchargement d’instruments.
+Votre MIDI original n’est jamais modifié.
+MIDI standard 0 et 1 à division musicale. Pas de SysEx, SMPTE, type 2,
+ni de conversion en partition traditionnelle. Le piano roll affiche la durée
+des touches, sans prolongation visuelle de la pédale. Les canaux partagés
+conservent leurs instruments et contrôleurs communs lors de la coupure de piste.
+
+ENGLISH
+1. Unzip MIDIViewer-1.0-macOS.zip.
+2. Move “MIDI Viewer.app” to your Applications folder.
+3. Open the app and choose File > Open… (Command–O).
+You can also drop a .mid or .midi file into the window, or use
+Finder > Open With > MIDI Viewer.
+
+Space: play/pause. Command–period: stop and rewind.
+Click the timeline to seek. The percentage menu changes playback speed;
+Command–0 restores 100%.
+Eye: show/hide. Speaker: mute/unmute. Headphones: solo.
+
+Fully offline. No account or instrument downloads. Your original MIDI file
+is never modified. Standard MIDI types 0 and 1 with musical tick timing.
+No SysEx, SMPTE, type 2, or conversion to traditional sheet music.
+The piano roll shows key durations, not sustain tails. Shared channels retain
+common instrument/controller settings when a track is muted.
+
+Languages / Langues: English, français, español, Deutsch, italiano.
+Source, issues and releases: https://github.com/quentinlesceller/MIDIViewer
+License: MIT (included). Apple’s system synthesizer is supplied by macOS;
+no Apple sound-bank resources are copied into this download.

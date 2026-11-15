@@ -1,0 +1,14 @@
+# Optional template: copy to .github/workflows/macos.yml to activate.
+name: macOS build and tests
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build universal application
+        run: Tools/build.sh "$RUNNER_TEMP/MIDIViewer-build"
+      - name: Run MIDI and audio tests
+        run: Tools/test.sh
+# Live audio tests require an available Core Audio output device.
+# No signing credentials belong in this workflow. Distribution uses a local Keychain.
